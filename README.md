@@ -14,6 +14,15 @@ This is a project for the master's programme course OpenLLMs by Dr. Jürgen Herm
 - Therefore, it is representative for the chosen task and provides high complexity
 
 
-## New approach
+## Documentation of first testing & new approach
 
-after having tested the approach described above, we have found that it is more complex than expected. The dataset is too big and would require too many ressources. Further, the scope of the experiment needs more time and a bigger team to be replicated with a different LLM that was not used in the paper. Hence, we are opting for a sentiment analysis experiment with Apertus.
+After having tested the approach described above, we have found that it is more complex than expected. The follwoing problems arose during testing:
+- The dataset is too big and would require too many resources. Furthe
+- The scope of the experiment needs more time and a bigger team to be replicated with a different LLM that was not used in the paper.
+- There were difficulties with running the model "swiss-ai/Apertus-70B-Instruct-2509"
+
+Hence, we are opting for a sentiment analysis experiment with Apertus, or maybe switch to another LLM.
+Next steps:
+- Searching for another, more adequate LLM (Konu)
+- Searching for another, more suitable dataset (Hannah)
+- redefine project/research question (both)
