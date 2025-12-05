@@ -12,3 +12,8 @@ This is a project for the master's programme course OpenLLMs by Dr. Jürgen Herm
 - Dataset: https://llms-believe-the-earth-is-flat.github.io
 - Dataset contains factual questions paired with systematically generated persuasive misinformation and investigates 4 different persuasive strategies
 - Therefore, it is representative for the chosen task and provides high complexity
+
+
+## New approach
+
+after having tested the approach described above, we have found that it is more complex than expected. The dataset is too big and would require too many ressources. Further, the scope of the experiment needs more time and a bigger team to be replicated with a different LLM that was not used in the paper. Hence, we are opting for a sentiment analysis experiment with Apertus.
