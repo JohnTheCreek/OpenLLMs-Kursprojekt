@@ -24,5 +24,5 @@ After having tested the approach described above, we have found that it is more 
 Hence, we are opting for a sentiment analysis experiment with Apertus, or maybe switch to another LLM.
 Next steps:
 - Searching for another, more adequate LLM (Konu) -> new LLM: tinyllama
-- Searching for another, more suitable dataset (Hannah): new dataset: Text Emotion Dataset https://www.kaggle.com/datasets/prajwalnayakat/text-emotion
+- Searching for another, more suitable dataset (Hannah) -> new dataset: Text Emotion Dataset https://www.kaggle.com/datasets/prajwalnayakat/text-emotion
 - redefine project/research question (both)
