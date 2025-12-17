@@ -9,5 +9,20 @@ This is a project for the master's programme course OpenLLMs by Dr. Jürgen Herm
 ### Experiment and data
 Hence, we are opting for a sentiment analysis experiment wit another LLM:
 - We decided on a new LLM: tinyllama
-- Also, we wanted to create a small dataset, consisting of sentences displaying a particular emotion. The sentences were gathered from song lyrics by many different artists, all in English. For every sentence, a category (emotion) was advised:
-- writing script for sentiment analysis
+- Also, we wanted to create a small dataset, consisting of sentences or passages displaying a particular emotion. For every sentence, a category (emotion) is advised.
+- We are writing a script for sentiment analysis.
+
+### About the dataset
+The sentences/passages were gathered from song lyrics by many different artists, all in English. The sentences, 71 in total, were then categorized regarding the emotion that it is about. The distribution looks like this:
+1 sadness      24
+2 love         15
+3 fear          8
+4 pain          8
+5 happiness     7
+6 anger         5
+7 despair       4
+
+Some of them are very clear, and therefore, presumably easy to assign:
+- "Somebody's gonna fall in love tonight" - love
+- "To you I'm smiling, but really, I'm hurting" - pain
+While others are more metaphorical or not as easy to recognize. 
