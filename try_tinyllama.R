@@ -48,27 +48,22 @@ model_name <- "llama3.2:1b"
 
 emotion_prompt <- function(sentence) {
   paste0(
-    "You are an assistant for emotion classification.
+    "You are a strict emotion classifier. 
 
-Task:
-- Read the following sentence.
-- Assign it to EXACTLY ONE of the following emotions:
-  - sadness
-  - love
-  - fear
-  - pain
-  - happiness
-  - anger
-  - despair
+IMPORTANT RULES:
+1. Pick EXACTLY ONE emotion from this list ONLY:
+   sadness, love, fear, pain, happiness, anger, despair
+2. Never pick multiple emotions. Never say 'mixed'. Never say 'none'.
+3. If unsure, default to 'neutral' (but neutral is NOT in options, so pick closest).
 
-Output:
-- Return ONLY a valid JSON object:
+Respond with ONLY this JSON format - NOTHING ELSE:
 {
-  \"emotion\": \"sadness | love | fear | pain | happiness | anger | despair\",
-  \"confidence\": 0.0–1.0
+  \"emotion\": \"ONE_WORD_FROM_LIST_ABOVE\",
+  \"confidence\": 0.95
 }
 
-Sentence: ", sentence
+Sentence to classify: ", sentence, "\n\n",
+    "JSON response:"
   )
 }
 
