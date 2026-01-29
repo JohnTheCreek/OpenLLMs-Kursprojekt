@@ -1,0 +1,73 @@
+text,manual_emotion,llm_emotion,correct,match
+you were broken-hearted and the world was too,sadness,sadness,TRUE,✓ CORRECT
+"are you afraid, because I’m terrified",fear,fear,TRUE,✓ CORRECT
+happiness hit her like a train on a track,happiness,happiness,TRUE,✓ CORRECT
+and I am freaking out in the middle of the street,fear,ANGER,FALSE,✗ WRONG
+"I can see no way, I can see no way",despair,despair,TRUE,✓ CORRECT
+I was never as good as I always thought I was,sadness,happiness,FALSE,✗ WRONG
+this is a song for a scribbled out name and my love keeps writing again and again,love,happiness,FALSE,✗ WRONG
+"Jesus Christ, it hurts",pain,pain,TRUE,✓ CORRECT
+"I'm miles away, he's on my mind",love,happiness,FALSE,✗ WRONG
+"Well, did you miss me? Walk on water just to kiss me?",love,sadness,FALSE,✗ WRONG
+you'll be sorry that you messed with this,anger,happiness,FALSE,✗ WRONG
+"And, in my darkest fantasies, I am the picture of passivity Waiting for you side of stage, suppressing all my private rage",anger,happiness,FALSE,✗ WRONG
+Crying into cereal at midnight,sadness,sadness,TRUE,✓ CORRECT
+"And I stare at your hands in the heat, and I think they are the most beautiful thing I've ever seen",love,happiness,FALSE,✗ WRONG
+"But if I was free to love you, you wouldn't want me, would you?",love,love,TRUE,✓ CORRECT
+And with one kiss you inspired a fire of devotion,love,happiness,FALSE,✗ WRONG
+it makes my chest hurt to think of it,pain,pain,TRUE,✓ CORRECT
+"I've always been in love with you, could you tell it from the moment that I met you?",love,love,TRUE,✓ CORRECT
+"oh, the river, it's running free and oh, the joy, oh, the joy it brings to me",happiness,happiness,TRUE,✓ CORRECT
+between a crucifix and the Hollywood sign we decided to get hurt,pain,Fear,FALSE,✗ WRONG
+"Even though I'm angry, don't wanna be disrespectful",anger,Happiness,FALSE,✗ WRONG
+Never thought my parent would give me my first heartbreak,sadness,happiness,FALSE,✗ WRONG
+"Lately, I'm paranoid, I feel my life is a mess",fear,fear,TRUE,✓ CORRECT
+"Baskin' in this feeling, if I must say, it's amazing",happiness,happiness,TRUE,✓ CORRECT
+"To you I'm smiling, but really, I'm hurting",pain,happiness,FALSE,✗ WRONG
+"The buildings are screaming I can't ask for help though, nobody knows me",despair,fear,FALSE,✗ WRONG
+She's worried 'bout the world tonight,fear,fear,TRUE,✓ CORRECT
+She don't know how she's supposed to put it from her mind,despair,sadness,FALSE,✗ WRONG
+There are things I have to say about the fullness and the blaze of this beautiful life,happiness,happiness,TRUE,✓ CORRECT
+I got problems but I'm not fuckin' weak,anger,happiness,FALSE,✗ WRONG
+Hold me closer on the sofa sleeping under your arm,love,happiness,FALSE,✗ WRONG
+But I've fallen for a woman from the skies,love,sadness,FALSE,✗ WRONG
+"Shit, I can only blame you",anger,sadness,FALSE,✗ WRONG
+I heard this little lady must've felt the pain,pain,sadness,FALSE,✗ WRONG
+I've been suffering these dreamy days,pain,sadness,FALSE,✗ WRONG
+"Nearing the end, but I can't comprehend my fears",fear,fear,TRUE,✓ CORRECT
+had me hopeless and numb,sadness,sadness,TRUE,✓ CORRECT
+Weight was more than I was able to bear,despair,happiness,FALSE,✗ WRONG
+"But blatantly scared, escaping any fragrant affair",fear,fear,TRUE,✓ CORRECT
+"Stop the crying, I weren't crying on you",sadness,happiness,FALSE,✗ WRONG
+I cried for you on the kitchen floor,sadness,sadness,TRUE,✓ CORRECT
+I've forgotten all of young love's joy,sadness,happiness,FALSE,✗ WRONG
+"'Cause you got no one to listen, you got no one to call",sadness,sadness,TRUE,✓ CORRECT
+I know you're lonely,sadness,sadness,TRUE,✓ CORRECT
+Were you tortured by your own thirst in those pleasures that you seek,pain,hunger,FALSE,✗ WRONG
+But I've seen your self-pity showin' as the tears rolled down your cheeks,sadness,sadness,TRUE,✓ CORRECT
+Soon you know I'll leave you and I'll never look behind,sadness,sadness,TRUE,✓ CORRECT
+"My days now end as they began, with thoughts of you",love,sadness,FALSE,✗ WRONG
+Now these thoughts are haunting me of how complete I used to be,sadness,hurt,FALSE,✗ WRONG
+And in these times that we're apart I'll hear this song that breaks my heart,sadness,sadness,TRUE,✓ CORRECT
+Cause your queen of hearts who is half a stone and likes to laugh alone is always threatening you with leaving,sadness,sadness,TRUE,✓ CORRECT
+I still want you by my side,love,happiness,FALSE,✗ WRONG
+She once was a true love of mine,love,love,TRUE,✓ CORRECT
+In the quiet of a railway station running scared,fear,fear,TRUE,✓ CORRECT
+I do declare there were times when I was so lonesome,sadness,sadness,TRUE,✓ CORRECT
+"Then I'm laying out my winter clothes and wishing I was gone, going home",sadness,fear,FALSE,✗ WRONG
+When evening falls so hard I will comfort you,sadness,happiness,FALSE,✗ WRONG
+Somebody's gonna fall in love tonight,love,love,TRUE,✓ CORRECT
+It's so hard for me staying here all alone,sadness,sadness,TRUE,✓ CORRECT
+Every night my tears fall down like rain,sadness,sadness,TRUE,✓ CORRECT
+On the day that she left he died but it did not show,pain,sadness,FALSE,✗ WRONG
+Children cry in fear,fear,happiness,FALSE,✗ WRONG
+Lately I've found myself losing my mind,despair,sadness,FALSE,✗ WRONG
+And the hardest thing under the sun above it's to say goodbye to the ones you love,sadness,sadness,TRUE,✓ CORRECT
+"And if she's beside me, I know I need never care",love,happiness,FALSE,✗ WRONG
+But of all these friends and lovers there is no one compares with you,love,happiness,FALSE,✗ WRONG
+"Sunday mornings go for a ride, doing the garden, digging the weeds Who could ask for more?",happiness,happiness,TRUE,✓ CORRECT
+There's a shadow hanging over me,sadness,fear,FALSE,✗ WRONG
+"I can hear the deep rasp of your laughter, joyful",happiness,happiness,TRUE,✓ CORRECT
+I sang by the piano tore my yellow dress and cried and cried and cried,sadness,sadness,TRUE,✓ CORRECT
+Sometimes I feel like throwing my hands up in the air,happiness,happiness,TRUE,✓ CORRECT
+"'Cause sooner or later in life, the things you love you lose",sadness,love,FALSE,✗ WRONG
